@@ -1,1 +1,22 @@
-
+    <div class="accueil">
+      <div class="bloc-fondu">
+        <h1 class="bloc-background">Mon Premier Jeu Video</h1>
+        <ul>
+          <li>
+            <a href="connexion.html"><h4>Connexion/S'inscrire</h4></a>
+          </li>
+          <li>
+            <a href="contact.html"><h4>Contactez-nous</h4></a>
+          </li>
+          <li>
+            <a href="le-cercle.html"><h4>Le Cercle</h4></a>
+          </li>
+          <li>
+            <a href="les-jeux.html">
+              <h4>Les Jeux</h4>
+            </a>
+          </li>
+        </ul>
+        <h1>Accueil</h1>
+      </div>
+    </div>
