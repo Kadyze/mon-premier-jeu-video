@@ -1,0 +1,19 @@
+.accueil {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.bloc-fondu {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  background: #fff;
+  box-shadow: 90px 0 100px 100px #fff;
+}
+.bloc-background {
+  background-image: url(img/que-la-win.jpg);
+  width: 90%;
+  height: 100%;
+  background-position: 60% 40%;
+}
