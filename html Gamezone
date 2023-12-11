@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="element">
+    <nav class="onglets">
+      <ul>
+        <li>
+          <a href="connexion.html"><h4>Connexion/S'inscrire</h4></a>
+        </li>
+        <li>
+          <a href="contact.html"><h4>Contactez-nous</h4></a>
+        </li>
+        <li>
+          <a href="le-cercle.html"><h4>Le Cercle</h4></a>
+        </li>
+        <li>
+          <a href="les-jeux.html">
+            <h4>Les Jeux</h4>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <h1>GameZone</h1>
+    <div class="infos">
+      <h3>A propos...</h3>
+      <p>
+        Bienvenue sur le site. Je suis Lea et je suis ici pour vous guider sur
+        le fonctionnement du site. Tout d'abord j'aimerai presenter mon idee et
+        pourquoi j'ai decide de partir sur celle-ci. J'en avais marre de me
+        balader sur des sites peu accueillants comme ce que l'on peut trouver
+        sur internet. Je me suis donc demander pourquoi je n'essaierai pas
+        d'innover et de proposer quelque chose au marche de blog jeux video. Je
+        me suis armee de mes plus petits outils et de mes braves enseignants et
+        j'ai fonce. Ce site est fait pour etre accueillant et chaleureux, pour
+        communiquer, partager des tips et soluces. Voili voilou, si vous avez
+        des questions n'hesitez pas a acceder a la section "Contact" ou
+        simplement a cliquer juste ici.
+      </p>
+    </div>
+
+    <h3>Les dernieres actualites</h3>
+
+    <main>
+      <section>
+        <div class="cards">
+          <article class="card">
+            <a href="news1.html"
+              ><img src="img/GTA-6.jpg" alt="Sortie de GTA 6"
+            /></a>
+            <p>
+              GTA 6 : une sortie au début, au milieu ou à la fin de l’année 2025
+              ? Les rapports de l’éditeur du jeu nous mettent sur une piste plus
+              précise !
+            </p>
+          </article>
+
+          <article class="card">
+            <a href="news2.html"
+              ><img src="img/the-finals.jpg" alt="Nouveau jeu The Finals"
+            /></a>
+            <p>
+              Ce jeu de tir gratuit est fou et il casse tout sur son passage !
+              Nous avons essayé The Finals.
+            </p>
+          </article>
+
+          <article class="card">
+            <a href="news3.html"
+              ><img src="img/tlou.jpg" alt="Jeu The Last Of"
+            /></a>
+            <p>
+              "Ils forcent avec les remasters !", la nouvelle version de The
+              Last of Us Part 2 fait débat.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
