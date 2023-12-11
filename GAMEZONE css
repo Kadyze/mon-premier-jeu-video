@@ -1,0 +1,142 @@
+/* Importation de la police Dosis depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+/*@font-face {
+  font-family: "Dosis", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+}
+*/
+
+/* Utilisation de la police Dosis pour le corps de la page */
+body {
+  font-family: "Dosis", sans-serif;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgb(0, 0, 0)),
+    url("img/que-la-win.jpg"), url("img/black.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top, top, bottom;
+  background-size: cover;
+  min-height: 100vh;
+  width: 90%;
+  color: white;
+}
+
+/* Styles pour les liens */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Styles spécifiques pour les liens dans la classe .onglets */
+.onglets a {
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+/* Style de la liste non ordonnée (ul) */
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-right: 250px;
+  list-style-type: none;
+  text-align: end;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Lilita One", sans-serif;
+}
+
+/* Style des titres h1 */
+h1 {
+  color: white;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3.5rem;
+  font-family: "Lilita One", sans-serif;
+  margin-top: 120px;
+  margin-left: 160px;
+}
+
+/* Style des sous-titres h3 */
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1rem;
+  color: #fff;
+  font-family: "Lilita One", sans-serif;
+}
+
+/* Style pour la section "infos" */
+.infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-left: 150px;
+  box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.infos h3 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 45px;
+  margin-left: 160px;
+}
+
+.infos p {
+  color: white;
+  margin-right: 10px;
+  font-style: italic;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+/* Style pour les titres h3 */
+h3 {
+  margin-top: 200px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 3rem;
+  margin-left: 160px;
+}
+
+/* Style pour les cartes (cards) */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.card {
+  flex: 0 1 calc(30% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 100px;
+  margin-bottom: 16px;
+  transition: transform 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transform: translateY(-50px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50% 20% / 10% 40%;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
